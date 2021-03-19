@@ -1,0 +1,46 @@
+/*************************************************** Navegador de la pagina ************************************************************/
+.navegador {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--darkColor);
+}
+
+.botonHamburguesa {
+    width: 70px;
+    color: var(--lightColor);
+}
+
+.itemNav {
+    color: var(--lightColor);
+    font-family: var(--typography);
+    font-size:15px;
+}
+.imageLogo{
+    width: 180px;
+    height: 40px;
+    margin-left: 18px;
+    margin-top: 6px;
+}
+/*************************************************** Body de la pagina ************************************************************/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.itemIcon{
+    font-size: var(--IconNormalZise);
+    color:white;
+    margin-right: 12px;
+}
+.itemIconNav{
+    font-size: var(--IconNavZise);
+    color: var(--lightColor);
+    margin-right: 6px;
+}
+.blockCenter{
+    width: 220px;
+}
+.aItemCenter{
+    font-size: var(--textZise);
+    font-family: var(--typography);
+    color:white;
+}
