@@ -1,0 +1,50 @@
+.headerAgenda{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--blueColor);
+}
+.bgYellow{
+    background-color: var(--yellowColor);
+}
+.bgWhite{
+    background-color: var(--lightColor);
+}
+.bgblue{
+    background-color: var(--blueColor);
+}
+.bgDark{
+    background-color: var(--darkColor);
+}
+.bgRose{
+    background-color: var(--roseColor);
+}
+.contentCard{
+    border: 3px solid var(--darkColor);
+    padding: 10px;
+    border-radius: 25px;
+}
+.marginTopText{
+    margin-top: 6px;
+}
+.paddinAll{
+    padding: 10px;
+}
+.contentCenter{
+    margin: 2.5%;
+    width: 95%;
+    height: auto;
+}
+.contentCenterDetails{
+    margin: 3%;
+    width: 94%;
+    height: auto;
+}
+.imagesDays{
+    width: 100%;
+    height: auto;
+}
+.borderRadio{
+    padding: 5px;
+    border-radius: 18px;
+}
