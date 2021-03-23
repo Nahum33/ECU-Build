@@ -1,50 +1,62 @@
-.headerAgenda{
+.headerAgenda {
     width: 100%;
     padding: 20px;
     text-align: center;
     background-color: var(--blueColor);
 }
-.bgYellow{
+
+.bgYellow {
     background-color: var(--yellowColor);
 }
-.bgWhite{
+
+.bgWhite {
     background-color: var(--lightColor);
 }
-.bgblue{
+
+.bgblue {
     background-color: var(--blueColor);
 }
-.bgDark{
+
+.bgDark {
     background-color: var(--darkColor);
 }
-.bgRose{
+
+.bgRose {
     background-color: var(--roseColor);
 }
-.contentCard{
+
+.contentCard {
     border: 3px solid var(--darkColor);
     padding: 10px;
     border-radius: 25px;
 }
-.marginTopText{
+
+.marginTopText {
     margin-top: 6px;
 }
-.paddinAll{
+
+.paddinAll {
     padding: 10px;
 }
-.contentCenter{
+
+.contentCenter {
     margin: 2.5%;
     width: 95%;
     height: auto;
 }
-.contentCenterDetails{
+
+.contentCenterDetails {
     margin: 3%;
     width: 94%;
     height: auto;
 }
-.imagesDays{
+
+.imagesDays {
     width: 100%;
     height: auto;
 }
-.borderRadio{
+
+.borderRadio {
     padding: 5px;
     border-radius: 18px;
 }

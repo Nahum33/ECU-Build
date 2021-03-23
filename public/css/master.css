@@ -1,10 +1,11 @@
 /* variables */
+
 :root {
     --darkColor: #333333;
     --lightColor: white;
     --blueColor: #0B6193;
-    --yellowColor : #DA9D1E;
-    --roseColor : #952C40;
+    --yellowColor: #DA9D1E;
+    --roseColor: #952C40;
     --typography: 'Ubuntu';
     --titleZiseH1: 30px;
     --titleZiseH2: 22px;
@@ -12,7 +13,7 @@
     --textZise: 15px;
     --IconNavZise: 24px;
     --IconNormalZise: 30px;
-  }
+}
 
 * {
     margin: 0;
@@ -28,6 +29,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .homePage {
     width: 100%;
     height: 100%;
@@ -37,57 +39,87 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+
 .agenda {
     width: 100%;
     height: auto;
 }
+
 .aboutUs {
     width: 100%;
     height: 100%;
 }
+
 .footer {
     width: 100%;
     height: 10%;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6, .text{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text {
     margin: 0;
     padding: 0;
     font-family: var(--typography);
 }
 
-.lightColor{
+.lightColor {
     color: var(--lightColor);
 }
-.darkColor{
+
+.darkColor {
     color: var(--darkColor);
 }
-.blueColor{
+
+.blueColor {
     color: var(--blueColor);
 }
-.yellowColor{
+
+.yellowColor {
     color: var(--yellowColor);
 }
 
-.fontZiseH1{
+.roseColor {
+    color: var(--roseColor);
+}
+
+.fontZiseH1 {
     font-size: var(--titleZiseH1);
 }
-.fontZiseH2{
+
+.fontZiseH2 {
     font-size: var(--titleZiseH2);
 }
-.fontZiseH3{
+
+.fontZiseH3 {
     font-size: var(--titleZiseH3);
 }
-.fontZiseText{
+
+.fontZiseText {
     font-size: var(--textZise);
 }
 
-.fontWeightBold{
+.fontWeightBold {
     font-weight: bold;
 }
-.fontWeightNormal{
+
+.fontWeightNormal {
     font-weight: normal;
 }
