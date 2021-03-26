@@ -43,8 +43,8 @@
             </div>
             <div class="collapse navbar-collapse" id="NavegadorHomePage">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="itemNav"><i class="fa fa-calendar itemIconNav" aria-hidden="true"></i> AGENDA</a></li>
-                    <li><a class="itemNav"><i class="fa fa-question itemIconNav" aria-hidden="true"></i> QUÉ ES ECU</a></li>
+                    <li><a data-event-scroll data-id="agenda" class="itemNav"><i class="fa fa-calendar itemIconNav" aria-hidden="true"></i> AGENDA</a></li>
+                    <li><a data-event-scroll data-id="aboutUs" class="itemNav"><i class="fa fa-question itemIconNav" aria-hidden="true"></i> QUÉ ES ECU</a></li>
                 </ul>
             </div>
         </nav>
@@ -97,7 +97,7 @@
     </header>
 
     <!-------------------------------------------------------- Agenda -------------------------------------------------------->
-    <aside class="agenda">
+    <aside id="agenda" class="agenda">
         <!-- Header Agenda -->
         <header class="headerAgenda">
             <h1 class="lightColor fontZiseH1">Agenda</h1>
@@ -388,7 +388,7 @@
                                                     <br>
                                                     <div class="center-block">
                                                         <h2 class="lightColor fontZiseH2 fontWeightBold marginTopText text-center">Guía D1</h2>
-                                                        <button class="bgblue lightColor fontZiseH3 btn center-block marginTopText btn">Descargar</button>
+                                                        <button data-event-url data-url="https://drive.google.com/file/d/1OSKEa8aDcJ1iJathmrzGEvPEaqz9mY5G/view?usp=sharing" class="bgblue lightColor fontZiseH3 btn center-block marginTopText btn">Descargar</button>
                                                         <br>
                                                     </div>
                                                     <br>
@@ -852,7 +852,7 @@
                                                     <br>
                                                     <div class="center-block">
                                                         <h2 class="lightColor fontZiseH2 fontWeightBold marginTopText text-center">Guía D2</h2>
-                                                        <button class="bgblue lightColor fontZiseH3 btn center-block marginTopText btn">Descargar</button>
+                                                        <button data-event-url data-url="https://drive.google.com/file/d/1OSKEa8aDcJ1iJathmrzGEvPEaqz9mY5G/view?usp=sharing" class="bgblue lightColor fontZiseH3 btn center-block marginTopText btn">Descargar</button>
                                                         <br>
                                                     </div>
                                                     <br>
@@ -1166,7 +1166,7 @@
     </aside>
     <!-------------------------------------------------------- aboutUs -------------------------------------------------------->
     <br>
-    <aside class="aboutUs">
+    <aside id="aboutUs" class="aboutUs">
         <header class="headerAboutUs">
             <h1 class="lightColor fontZiseH1">¿QUÉ ES ECU?</h1>
         </header>
