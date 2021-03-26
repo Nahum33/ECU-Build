@@ -4,3 +4,7 @@ var homePage = (function()
     return{
     }
   }());
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
